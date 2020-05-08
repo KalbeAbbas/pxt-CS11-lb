@@ -17,7 +17,7 @@ int extfun(int x, int y)
 
     //%
     void write_(uint8_t pin){
-        auto led = LOOKUP_PIN(MISO);
+        auto led = LOOKUP_PIN(SCK);
         led -> setDigitalValue(pin);
     }
     } // namespace CS11
