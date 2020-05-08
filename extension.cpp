@@ -5,7 +5,7 @@ using namespace pxt;
 // #define MISO 22
 // #define MOSI 23
 // #define SCK 24
-// #define CS 11
+ #define CS 11
 
 namespace CS11
 {
